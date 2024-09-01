@@ -123,33 +123,7 @@ include_once __DIR__ . '/src/libs/connection.php';
           </div>
         </div>
       </div>
-      <div class="swiper-slide">
-        <!-- slide 5 -->
-        <div class="content content5">
-          <div class="information" data-swiper-parallax="-200%">
-            <div class="info">
-              <h2>© 2024</h2>
-              <h1>Branding</h1>
-            </div>
-            <div class="head" data-swiper-parallax="-200%">
-              <h1>Headphone</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <!-- slide 6 -->
-        <div class="content content6">
-          <div class="information" data-swiper-parallax="-200%">
-            <div class="info">
-              <h2>© 2024</h2>
-              <h1>Branding</h1>
-            </div>
-            <div class="head" data-swiper-parallax="-200%">
-              <h1>Table Lamp</h1>
-            </div>
-          </div>
-        </div>
+      
       </div>
 
     </div>
