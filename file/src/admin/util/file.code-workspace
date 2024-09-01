@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "file",
+			"path": "../../.."
+		},
+		{
+			"name": "cosmosxdocs",
+			"path": "../../../cosmosxdocs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

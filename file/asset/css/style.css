@@ -1,0 +1,296 @@
+
+.admin-dashboard {
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sec-fil {
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.sec-fil h2 {
+
+    margin-top: 0;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+
+.warning-message {
+
+    color: red;
+    background: rgb(247, 203, 203);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid red;
+    border-radius: 4px;
+    text-align: start;
+    width: 100%;
+
+    }
+
+.success-message {
+
+    color: rgb(2, 143, 13);
+    background: rgb(213, 248, 199);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid green;
+    border-radius: 4px;
+    text-align: start;
+    width: 100%;
+    
+    }
+.sec-lb {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.file-upload {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.file-upload label {
+
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.file-upload span {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea ,
+.file-upload input[type="file"]{
+    
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(0, 128, 128);
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+
+    height: 19px;
+    width: 20px;
+}
+
+button[type="submit"] {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(253, 252, 252);
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: #e6b800;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.statu {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.statu span {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(0, 128, 128);
+    text-shadow: 1px 1px 2px rgb(102, 101, 101);
+}
+
+.statu p {
+        margin: 0;
+        font-size: 18px;
+        color: #777;
+        position: relative;
+        bottom: 0;
+        left: 7px;
+        height: 0;
+        font-weight: bold;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f0f0f0;
+    
+    
+}
+
+thead th {
+
+    background: rgb(90, 138, 243);
+    padding: 15px;
+    text-align: center;
+    color: #fcfafa;
+    border-right: 1px solid white;
+    
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 15px 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.modify-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.modify-btn:hover {
+    background-color: #e6b800;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bold;
+
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}
+
+@media (max-width: 1200px) {
+    .carte {
+      width: calc(45% - 40px);
+      /* Deux cartes par ligne */
+    }
+  
+  
+  }
+  
+  @media (max-width: 768px) {
+    .carte {
+      width: calc(100% - 40px);
+      /* Une carte par ligne */
+      
+    }
+  
+    .sec-wrap {
+  
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+
+    .status-wrap {
+
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .statu span {
+
+        font-size: 50px;
+    }
+
+    .statu p {
+    
+        font-size: 15px;
+    }
+
+    .sec-fil {
+        
+      width: min-content;
+    }
+  } 
